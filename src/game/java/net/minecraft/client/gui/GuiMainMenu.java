@@ -97,11 +97,7 @@ public class GuiMainMenu extends GuiScreen implements GuiYesNoCallback {
 	 */
 	private static final ResourceLocation[] titlePanoramaPaths = new ResourceLocation[] {
 			new ResourceLocation("textures/gui/title/background/panorama_0.png"),
-			new ResourceLocation("textures/gui/title/background/panorama_1.png"),
-			new ResourceLocation("textures/gui/title/background/panorama_2.png"),
-			new ResourceLocation("textures/gui/title/background/panorama_3.png"),
-			new ResourceLocation("textures/gui/title/background/panorama_4.png"),
-			new ResourceLocation("textures/gui/title/background/panorama_5.png") };
+		};
 	private int field_92024_r;
 	private int field_92023_s;
 	private int field_92022_t;
@@ -111,7 +107,7 @@ public class GuiMainMenu extends GuiScreen implements GuiYesNoCallback {
 	private static ResourceLocation backgroundTexture = null;
 	private GuiUpdateCheckerOverlay updateCheckerOverlay;
 	private GuiButton downloadOfflineButton;
-	private boolean enableBlur = true;
+	private boolean enableBlur = false;
 	private boolean shouldReload = false;
 
 	private static GuiMainMenu instance = null;
