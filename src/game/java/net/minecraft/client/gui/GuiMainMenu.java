@@ -183,7 +183,7 @@ public class GuiMainMenu extends GuiScreen implements GuiYesNoCallback {
 			}
 		}
 
-		this.enableBlur = false;
+		this.enableBlur = true;
 
 		try {
 			byte[] bytes = EaglerInputStream.inputStreamToBytesQuiet(
